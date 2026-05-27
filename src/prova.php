@@ -48,6 +48,44 @@
 // $x = $y + $z % $y;
 // echo "x = $x";
 
+for($i=0;$i<=12;$i+=2){echo "$i ";};
 
+$naval=[
+["água","submarino","água"],
+["avião","água","água","ilha"],
+["água","água","barco"],
+["água","água","avião"],
+["água","submarino","água"],
+["veleiro","água","água"],
+["água","água","barco"],
+];
+
+echo "<hr>";
+
+echo $naval[3][2];
+
+echo "<hr>";
+
+for($i=0;$i<11;$i+=3){echo "$i ";}
+
+echo "<hr>";
+
+$naval=[
+["água","submarino","água"],
+["avião","água","água","ilha"],
+["água","água","barco"],
+["água","água","avião"],
+["água","submarino","água"],
+["veleiro","água","água"],
+["água","água","barco"],
+];
+
+echo $naval[1][3];
+
+echo "<hr>";
+
+for($i=5;$i>1;$i--){echo "$i ";}
+
+for($i=5;$i>0;$i--){echo "$i ";}
 
 ?>
